@@ -1,0 +1,76 @@
+
+
+
+header .image{
+     background-image:url("../images/cat.jpg");
+     background-size:cover;
+     height:500px;
+     background-position:center center;
+     width:100%;
+}
+
+.center{
+    text-align:center;
+}
+
+main h3{
+    margin-bottom:70px;
+    margin-top:50px;
+}
+
+.container{
+    display:-webkit-flex;
+    display:        flex;
+    justify-content:space-between
+    height:300px;
+}
+
+.text-box{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin:0 10px;
+    padding:50px;
+    
+}
+
+
+main p{
+    margin-bottom:30px;
+}
+
+footer{
+    height:300px;
+    background-color:#555;
+    position:relative;
+}
+
+footer h3{
+    
+    vertical-aligin:middle;
+    height:300px;
+    line-height:300px;
+}
+
+.button{
+    display:inline-block;
+    background-color:blue;
+    padding:5px 10px;
+    border-radius:5px;
+    margin-top:10px;
+    position:absolute;
+   top:60%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
+
+
+@media (max-width:768px){
+    header .image{
+        height:250px;
+    }
+    .container{
+        flex-direction:column;
+        
+    }
+}
